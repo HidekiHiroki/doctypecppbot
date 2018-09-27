@@ -13,6 +13,9 @@ client.on('message', msg => {
 	if(msg.content.startsWith(prefix + "ata")){
 		msg.reply('<:puto:494256215556096001>');
 	};
+	if(msg.content.startsWith(prefix + "ok")){
+		msg.reply('ok é o krl pora >:C');
+	}
 });
 
 client.login(token);
