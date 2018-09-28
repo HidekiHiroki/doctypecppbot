@@ -19,6 +19,9 @@ client.on('message', msg => {
 	if(msg.content.startsWith(prefix + "sla")){
 		msg.reply('aaaaa sla tbm');
 	};
+	if(msg.content.startsWith(prefix + "kkk")){
+		msg.reply('KKK GADO D++');
+	};
 });
 
 client.login(token);
