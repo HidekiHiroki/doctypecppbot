@@ -7,7 +7,7 @@ var token = process.env.TOKEN;
 
 client.on('ready', () => {
 	console.log(`Bot Online\nName: ${client.user.username}\nID: ${client.user.id}`)
-	client.setPresence({game: {name:"Opora"}});
+	client.user.setPresence({game: {name:"Opora"}});
 })
 
 client.on('message', msg => {
