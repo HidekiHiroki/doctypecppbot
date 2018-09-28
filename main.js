@@ -15,7 +15,10 @@ client.on('message', msg => {
 	};
 	if(msg.content.startsWith(prefix + "ok")){
 		msg.reply('ok é o krl pora >:C');
-	}
+	};
+	if(msg.content.startsWith(prefix + "sla")){
+		msg.reply('aaaaa sla tbm');
+	};
 });
 
 client.login(token);
