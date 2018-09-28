@@ -23,6 +23,9 @@ client.on('message', msg => {
 	if(msg.content.startsWith(prefix + "kkk")){
 		msg.reply('KKK GADO D++');
 	};
+	else if (msg.content.startsWith(prefix + "kk")){
+		msg.reply('KK EAE MEN');
+	}
 });
 
 client.login(token);
